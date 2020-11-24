@@ -15,8 +15,8 @@ function App() {
         Hello
       </Button>
 
-      <Button size={ButtonSizes.lg}>Hello</Button>
-      <Button size={ButtonSizes.md}>Hello</Button>
+      <Button onClick={(e)=>{alert(1)}} size={ButtonSizes.lg}>点击</Button>
+      <Button autoFocus size={ButtonSizes.md}>autoFocus</Button>
       <Button size={ButtonSizes.sm}>Hello</Button>
     </div>
   )

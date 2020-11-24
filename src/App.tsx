@@ -8,15 +8,28 @@ function App() {
       <Button disabled btnType={ButtonTypes.primary}>
         Hello
       </Button>
-      <Button href="https://www.baidu.com" disabled btnType={ButtonTypes.link}>
+      <Button
+        href="https://www.baidu.com"
+        target="_blank"
+        btnType={ButtonTypes.link}
+      >
         百度 link
       </Button>
       <Button disabled btnType={ButtonTypes.danger}>
         Hello
       </Button>
 
-      <Button onClick={(e)=>{alert(1)}} size={ButtonSizes.lg}>点击</Button>
-      <Button autoFocus size={ButtonSizes.md}>autoFocus</Button>
+      <Button
+        onClick={(e) => {
+          alert(1)
+        }}
+        size={ButtonSizes.lg}
+      >
+        点击
+      </Button>
+      <Button autoFocus size={ButtonSizes.md}>
+        autoFocus
+      </Button>
       <Button size={ButtonSizes.sm}>Hello</Button>
     </div>
   )

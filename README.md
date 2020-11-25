@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# react-ui
+
+本项目仅为学习项目。
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
